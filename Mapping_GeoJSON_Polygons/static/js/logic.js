@@ -35,8 +35,7 @@ let torontoHoods = "https://raw.githubusercontent.com/uttamkumar2/Mapping_Earthq
 
 
 // Grabbing our GeoJSON data.
-d3.json(torontoHoods).then(function(data,
-  ) {
+d3.json(torontoHoods).then(function(data,) {
   console.log(data);
 // Creating a GeoJSON layer with the retrieved data.
 L.geoJSON(data, {
